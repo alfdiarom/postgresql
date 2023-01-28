@@ -1,5 +1,9 @@
 # docker_postgresql
 
+
+# PGadmin
+
+
 Levanta un servicio de postgresql y pgadmin.
 Ademas trae un .sql con sentencias para crear un schema inicial
 

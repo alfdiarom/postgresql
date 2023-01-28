@@ -2,6 +2,15 @@
 
 -- DROP TABLE public.zpp_necesidades_actual;
 
+CREATE TABLE public.pruebas_crud
+(
+    id bigserial primary key not null,
+    campo1 character varying(30) COLLATE pg_catalog."default",
+    campo2 character varying(30) COLLATE pg_catalog."default",
+    campo3 integer
+)
+
+
 CREATE TABLE public.zpp_necesidades
 (
     id bigserial primary key not null,
